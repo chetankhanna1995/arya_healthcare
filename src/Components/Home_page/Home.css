@@ -1,0 +1,90 @@
+.heroSection {
+    background-image: url(../../img/Hospital-furniture-01-scaled.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-name: hero_section_bg;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding-top: 80px;
+    color: #ffff;
+}
+
+
+
+@keyframes hero_section_bg {
+    0% {
+        background-image: url(../../img/Hospital-furniture-01-scaled.jpg);
+    }
+
+    25% {
+        background-image: url(../../img/surgeons-adjusting-oxygen-mask-patient-mouth-operation-theater.jpg);
+    }
+
+
+    50% {
+        background-image: url(../../img/web3-01-scaled.jpg);
+    }
+
+
+    75% {
+        background-image: url(../../img/hush-naidoo-jade-photography-ZCO_5Y29s8k-unsplash.jpg);
+    }
+
+    100% {
+        background-image: url(../../img/mammography.jpg);
+
+    }
+}
+
+
+
+.hero_section_text {
+    color: #24568d;
+    width: 35%;
+    margin-left: -30px;
+    font-size: 36px;
+    font-weight: 700;
+    /* background-color: #263755; */
+    text-align: center;
+    backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(150%);
+    line-height: 30px;
+    padding: 20px;
+}
+
+.why_choose_us {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
+
+
+
+.bg_herosection {
+    background: url(../../img/pattern-bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.HeroSection_Heading {
+    color: #24568d;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.HeroSection_SubHeading {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.p_cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: none;
+}

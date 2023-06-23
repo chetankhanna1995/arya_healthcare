@@ -1,0 +1,22 @@
+.about_image {
+    margin-top: -10px;
+    height: 450px;
+    width: 100%;
+}
+
+.about_text h1 {
+    font-family: 'Bitter', serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about_text p {
+    font-family: 'Bitter', serif;
+    letter-spacing: 3px;
+    /* text-align: start; */
+    font-size: 1.5rem;
+    font-weight: 500
+}
