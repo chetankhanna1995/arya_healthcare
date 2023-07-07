@@ -5,15 +5,11 @@
     align-items: center;
     height: 350px;
     border: none;
-    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 
-
-
 .card img {
-    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
     padding: 10px;
     width: 95%;
     height: 75%;
@@ -23,4 +19,18 @@
     font-size: 1.2rem;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width:580px) {
+    .card {
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+
+    .card img {
+        padding: 10px;
+        width: 50%;
+        height: 65%;
+    }
 }

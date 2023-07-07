@@ -1,4 +1,6 @@
-
+.navbar {
+    background-color: #ffffff;
+}
 
 .nav-link {
     font-family: 'Poppins', sans-serif;
@@ -7,7 +9,7 @@
 }
 
 .navbar-collapse>ul>li {
-    padding: 0 25px;
+    padding: 0 20px;
 }
 
 .nav-link:hover {

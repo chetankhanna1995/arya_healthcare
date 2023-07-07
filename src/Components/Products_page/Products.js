@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardGroup, Container } from "reactstrap"
+import { Container, Col, Row } from "reactstrap"
 import Cards from '../Card/Cards'
 import './Products.css'
 
@@ -32,54 +32,130 @@ import pulse_oximeter from '../../img/product/pulse_oximeter.jpg'
 const Products = () => {
   return (
     <div className='pb-2 product_bg'>
-      <Container className='py-4 '>
-        <CardGroup className='gap-4 text-center py-4'>
+      <Container className='py-4'>
+        <Row xl="3" md="2" xs="1" className='text-center g-4 py-4'>
+          <Col>
+            <Cards img_alt='rehabilition aids' img_src={rehabilition_aids} title='REHABILITION AIDS' />
+          </Col>
+          <Col>
+            <Cards img_alt='autoclaves sterilisers' img_src={autoclaves_sterilisers} title='AUTOCLAVE & STERLIZERS' />
+          </Col>
+          <Col>
+            <Cards img_alt='icu electrical & manual_beds ' img_src={icu_electrical_manual_beds} title='ICU ELECTRICAL & MANUAL BEDS' ></Cards>
+          </Col>
+          <Col>
+            <Cards img_alt='LARYNGOSCOPY' img_src={laryngoscopy} title='LARYNGOSCOPY' ></Cards>
+          </Col>
+          <Col>
+            <Cards img_alt='electric_baby_warmer' img_src={electric_baby_warmer} title='ELECTRIC BABY WARMER' />
+          </Col>
+          <Col>
+            <Cards img_alt='operation_theatre_table' img_src={operation_theatre_table} title='Operation Theatre Table' />
+          </Col>
+          <Col>
+            <Cards img_alt='surgical Led Lights' img_src={surgical_Led_Lights} title='Surgical Led Lights' />
+          </Col>
+          <Col>
+            <Cards img_alt='delivery beds' img_src={delivery_beds} title='Delivery Beds' />
+          </Col>
+          <Col>
+            <Cards img_alt='anaesthesia machine & accessories' img_src={anaesthesia_machine_accessories} title='ANAESTHESIA MACHINE & ACCESSORIES' />
+          </Col>
+          <Col>
+            <Cards img_alt='HOSPITAL HOLLOWARE' img_src={hospital_holloware} title='HOSPITAL HOLLOWARE' />
+          </Col>
+          <Col>
+            <Cards img_alt='AMBULANCE STRECHER' img_src={ambulance_strecher} title='AMBULANCE STRECHER' />
+          </Col>
+          <Col>
+            <Cards img_alt='baby_tray_with_cover' img_src={baby_tray_with_cover} title='BABY TRAY WITH COVER' />
+          </Col>
+          <Col>
+            <Cards img_alt='DRESSING DRUM' img_src={dressing_drum} title='DRESSING DRUM' />
+          </Col>
+          <Col>
+            <Cards img_alt='FLOW METER ECO RANGE' img_src={flow_meter_eco_range} title='FLOW METER ECO RANGE' />
+          </Col>
+          <Col>
+            <Cards img_alt='KIDNEY TREY' img_src={kidney_tray} title='KIDNEY TREY' />
+          </Col>
+          <Col>
+            <Cards img_alt='X-RAY VIEW BOX' img_src={x_ray_view_box} title='X-RAY VIEW BOX' />
+          </Col>
+          <Col>
+            <Cards img_alt='SUCTION MACHINNE' img_src={suction_machine} title='SUCTION MACHINNE' />
+          </Col>
+          <Col>
+            <Cards img_alt='HYGROMETER' img_src={hygrometer} title='HYGROMETER' />
+          </Col>
+          <Col>
+            <Cards img_alt='SEMI FOWLER BED & PLAIN BED' img_src={semi_fowler_plain_bed} title='SEMI FOWLER BED & PLAIN BED' />
+          </Col>
+          <Col>
+            <Cards img_alt='O.T HALOGEN LIGHTS' img_src={ot_halogen_lights} title='O.T HALOGEN LIGHTS' />
+          </Col>
+          <Col>
+            <Cards img_alt='ICU BEDS & FOWLER BEDS' img_src={icu_beds_fowler_beds} title='ICU BEDS & FOWLER BEDS' />
+          </Col>
+          <Col>
+            <Cards img_alt='baby_bed' img_src={baby_bed} title='BABY BED' />
+          </Col>
+          <Col>
+            <Cards img_alt='Sethoscope' img_src={sethoscope} title='SETHOSCOPE' />
+          </Col>
+          <Col>
+            <Cards img_alt='Pulse Oximeter' img_src={pulse_oximeter} title='Pulse Oximeter' />
+          </Col>
+        </Row>
+
+
+        {/* <CardGroup className='gap-4 text-center py-4'>
           <Cards img_alt='rehabilition aids' img_src={rehabilition_aids} title='REHABILITION AIDS' />
           <Cards img_alt='autoclaves sterilisers' img_src={autoclaves_sterilisers} title='AUTOCLAVE & STERLIZERS' />
           <Cards img_alt='icu electrical & manual_beds ' img_src={icu_electrical_manual_beds} title='ICU ELECTRICAL & MANUAL BEDS' ></Cards>
-        </CardGroup>
+        </CardGroup> */}
 
-        <CardGroup className='gap-4 text-center py-4'>
+        {/* <CardGroup className='gap-4 text-center py-4'>
           <Cards img_alt='LARYNGOSCOPY' img_src={laryngoscopy} title='LARYNGOSCOPY' ></Cards>
           <Cards img_alt='electric_baby_warmer' img_src={electric_baby_warmer} title='ELECTRIC BABY WARMER' />
           <Cards img_alt='operation_theatre_table' img_src={operation_theatre_table} title='Operation Theatre Table' />
-        </CardGroup>
+        </CardGroup> */}
 
-        <CardGroup className="gap-4 text-center py-4">
+        {/* <CardGroup className="gap-4 text-center py-4">
           <Cards img_alt='surgical Led Lights' img_src={surgical_Led_Lights} title='Surgical Led Lights' />
           <Cards img_alt='delivery beds' img_src={delivery_beds} title='Delivery Beds' />
           <Cards img_alt='anaesthesia machine & accessories' img_src={anaesthesia_machine_accessories} title='ANAESTHESIA MACHINE & ACCESSORIES' />
-        </CardGroup>
+        </CardGroup> */}
 
-        <CardGroup className="gap-4 text-center py-4">
+        {/* <CardGroup className="gap-4 text-center py-4">
           <Cards img_alt='HOSPITAL HOLLOWARE' img_src={hospital_holloware} title='HOSPITAL HOLLOWARE' />
           <Cards img_alt='AMBULANCE STRECHER' img_src={ambulance_strecher} title='AMBULANCE STRECHER' />
           <Cards img_alt='baby_tray_with_cover' img_src={baby_tray_with_cover} title='BABY TRAY WITH COVER' />
-        </CardGroup>
+        </CardGroup> */}
 
-        <CardGroup className="gap-4 text-center py-4">
+        {/* <CardGroup className="gap-4 text-center py-4">
           <Cards img_alt='DRESSING DRUM' img_src={dressing_drum} title='DRESSING DRUM' />
           <Cards img_alt='FLOW METER ECO RANGE' img_src={flow_meter_eco_range} title='FLOW METER ECO RANGE' />
           <Cards img_alt='KIDNEY TREY' img_src={kidney_tray} title='KIDNEY TREY' />
-        </CardGroup>
+        </CardGroup> */}
 
-        <CardGroup className="gap-4 text-center py-4">
+        {/* <CardGroup className="gap-4 text-center py-4">
           <Cards img_alt='X-RAY VIEW BOX' img_src={x_ray_view_box} title='X-RAY VIEW BOX' />
           <Cards img_alt='SUCTION MACHINNE' img_src={suction_machine} title='SUCTION MACHINNE' />
           <Cards img_alt='HYGROMETER' img_src={hygrometer} title='HYGROMETER' />
-        </CardGroup>
+        </CardGroup> */}
 
-        <CardGroup className="gap-4 text-center py-4">
+        {/* <CardGroup className="gap-4 text-center py-4">
           <Cards img_alt='ICU BEDS & FOWLER BEDS' img_src={icu_beds_fowler_beds} title='ICU BEDS & FOWLER BEDS' />
           <Cards img_alt='SEMI FOWLER BED & PLAIN BED' img_src={semi_fowler_plain_bed} title='SEMI FOWLER BED & PLAIN BED' />
           <Cards img_alt='O.T HALOGEN LIGHTS' img_src={ot_halogen_lights} title='O.T HALOGEN LIGHTS' />
-        </CardGroup>
+        </CardGroup> */}
 
-        <CardGroup className="gap-4 text-center py-4">
+        {/* <CardGroup className="gap-4 text-center py-4">
           <Cards img_alt='baby_bed' img_src={baby_bed} title='BABY BED' />
           <Cards img_alt='Sethoscope' img_src={sethoscope} title='SETHOSCOPE' />
           <Cards img_alt='Pulse Oximeter' img_src={pulse_oximeter} title='Pulse Oximeter' />
-        </CardGroup>
+        </CardGroup> */}
 
       </Container>
     </div >

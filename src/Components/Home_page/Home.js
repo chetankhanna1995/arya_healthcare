@@ -1,6 +1,6 @@
 import React from 'react'
 import Cards from '../Card/Cards'
-import { CardGroup, Button } from 'reactstrap'
+import { Container, Row, Col, Button } from 'reactstrap'
 
 import rehabilition_aids from '../../img/product/rehabilition_aids.jpg'
 import autoclaves_sterilisers from '../../img/product/autoclaves & sterilisers.jpg'
@@ -38,7 +38,7 @@ const Home = () => {
                     <p className='HeroSection_SubHeading'>Search & view our wide range of medical equipment & supplies.</p>
                     <hr />
                 </div >
-                <div className="container p_grid " >
+                {/* <div className="container p_grid " >
                     <CardGroup className='gap-4 text-center py-4'>
                         <Cards img_alt='rehabilition aids' img_src={rehabilition_aids} title='REHABILITION AIDS' />
                         <Cards img_alt='autoclaves sterilisers' img_src={autoclaves_sterilisers} title='AUTOCLAVE & STERLIZERS' />
@@ -52,19 +52,50 @@ const Home = () => {
                         <Cards img_alt='surgical Led Lights' img_src={surgical_Led_Lights} title='Surgical Led Lights' />
                         <Cards img_alt='delivery beds' img_src={delivery_beds} title='Delivery Beds' />
                     </CardGroup>
-                </div>
-                <div className='py-5 d-flex justify-content-center' >
+                </div> */}
+
+                <Container className='py-2 '>
+                    <Row xl="4" md="3" sm="2" xs="1" className='text-center g-4 py-4'>
+                        <Col>
+                            <Cards img_alt='rehabilition aids' img_src={rehabilition_aids} title='REHABILITION AIDS' />
+                        </Col>
+                        <Col>
+                            <Cards img_alt='autoclaves sterilisers' img_src={autoclaves_sterilisers} title='AUTOCLAVE & STERLIZERS' />
+                        </Col>
+                        <Col>
+                            <Cards img_alt='icu electrical & manual_beds ' img_src={icu_electrical_manual_beds} title='ICU ELECTRICAL & MANUAL BEDS' ></Cards>
+                        </Col>
+                        <Col>
+                            <Cards img_alt='LARYNGOSCOPY' img_src={laryngoscopy} title='LARYNGOSCOPY' ></Cards>
+                        </Col>
+                        <Col>
+                            <Cards img_alt='electric_baby_warmer' img_src={electric_baby_warmer} title='ELECTRIC BABY WARMER' />
+                        </Col>
+                        <Col>
+                            <Cards img_alt='operation_theatre_table' img_src={operation_theatre_table} title='Operation Theatre Table' />
+                        </Col>
+                        <Col>
+                            <Cards img_alt='surgical Led Lights' img_src={surgical_Led_Lights} title='Surgical Led Lights' />
+                        </Col>
+                        <Col>
+                            <Cards img_alt='delivery beds' img_src={delivery_beds} title='Delivery Beds' />
+                        </Col>
+                    </Row>
+                </Container>
+
+                <div className='py-2 d-flex justify-content-center' >
                     <Button
                         color="primary"
                         href="/Products"
                         tag="a"
+                        className='px-4 py-2'
                     >
                         View All Products
                     </Button>
                 </div>
             </div >
 
-        </div>
+        </div >
 
     )
 }
