@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Route, Routes } from 'react-router-dom'
-import NavBar from './Components/Navbar/NavBar'
+import NavigationBar from './Components/Navbar/NavigationBar'
 import Home from './Components/Home_page/Home'
 import About from "./Components/About_page/About"
 import Contact from './Components/Contact_page/Contact'
@@ -12,7 +12,7 @@ import "./App.css"
 const App = () => {
   return (
     <div >
-      <NavBar />
+      <NavigationBar />
       <Routes >
         <Route path='/' element={< Home />} />
         <Route path='/products' element={< Products />} />

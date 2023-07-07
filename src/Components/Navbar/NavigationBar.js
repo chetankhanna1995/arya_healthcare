@@ -1,18 +1,13 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom'
 import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
+    Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem,
 } from 'reactstrap';
 import logo from "../../img/logo_arya_healthcare.png"
 import './Navbar.css'
 
 
-function NavBar(args) {
+function NavigationBar(args) {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => setIsOpen(!isOpen);
@@ -43,4 +38,4 @@ function NavBar(args) {
     );
 }
 
-export default NavBar;
+export default NavigationBar;

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, CardText, CardTitle, Container, Row, Col } from 'reactstrap'
+
 import './Contact.css'
 const Contact = () => {
     return (
@@ -12,7 +13,7 @@ const Contact = () => {
                 <Row xl="4"
                     md="2"
                     xs="1"
-                    className='text-center g-5' >
+                    className='text-center g-5 cards' >
                     <Col>
                         <Card className='rounded contact_card'>
                             <CardTitle>

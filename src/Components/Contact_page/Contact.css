@@ -1,12 +1,16 @@
 .contact_us {
     background: url(../../img/bg_2.jpg);
     ;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: local;
+}
+
+.cards {
+    padding-top: 80px;
 }
 
 .contact_us_top {
@@ -23,11 +27,57 @@
 }
 
 .contact_card {
-    height: 300px;
+    max-height: 300px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
     /* background-color: rgba(182, 181, 181, 0.45); */
     background-color: rgba(255, 255, 255, 0.3);
     /* backdrop-filter: blur(10px); */
     backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+}
+
+@media only screen and (max-width:1200px) {
+    .cards {
+        padding-top: 40px;
+    }
+
+    .contact_card {
+        /* width: 80%; */
+        height: 220px;
+        padding: 10px;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .contact_us {
+        background: url(../../img/bg_2.jpg);
+        ;
+        height: 70%;
+        width: 100%;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: local;
+    }
+
+    .contact_us_top h1 {
+        padding-top: 10px;
+        font-size: 3.2rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        text-shadow: 2px 2px #333344;
+    }
+
+    .cards {
+        padding-top: 10px;
+    }
+
+    .contact_card {
+        margin-left: 40%;
+        width: 50%;
+        height: 270px;
+        padding: 20px;
+    }
+
 }
